@@ -1,0 +1,14 @@
+
+= GeoIP Extensions
+
+A handful of GeoIP extensions. By "handful" we mean "one", at the moment:
+integration with ffi-geos.
+
+  DB = GeoIP::City.new('/path/to/db.dat')
+  DB.look_up('24.24.24.24')
+  DB[:geom] # => contains a Geos::Point.
+
+== License
+
+See the MIT-LICENSE file for details.
+
