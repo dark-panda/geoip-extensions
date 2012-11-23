@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split($\)
   s.executables = s.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
-  s.homepage = "https://git.i.internal/ruby/geoip-extensions"
+  s.homepage = "https://github.com/zoocasa/geoip-extensions"
   s.require_paths = ["lib"]
 
   s.add_dependency("geoip-c")
