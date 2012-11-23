@@ -8,4 +8,6 @@
 .DS_Store
 Thumbs.db
 Gemfile.lock
+Gemfile.local
+Guardfile.local
 doc
