@@ -18,6 +18,8 @@ end
 
 require File.join(File.dirname(__FILE__), %w{ .. lib geoip-extensions })
 
+puts "Ruby version #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL} - #{RbConfig::CONFIG['RUBY_INSTALL_NAME']}"
+
 module TestHelper
   CITY_DB = begin
     GeoIP::City.new(ENV['GEOIP_DB'])
